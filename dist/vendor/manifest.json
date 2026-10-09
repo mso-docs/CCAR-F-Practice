@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fflate.js",
+    "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/esm/browser.js",
+    "sha256": "8cc1f687e0159e977addb6b85e274dbd11e622cf151f4fcb7b85d49622ea43e7"
+  },
+  {
+    "file": "fflate-LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.2/LICENSE",
+    "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+  },
+  {
+    "file": "fzstd.js",
+    "url": "https://cdn.jsdelivr.net/npm/fzstd@0.1.1/esm/index.mjs",
+    "sha256": "1a901fc5a58c349bbdb4f2aa1e688637ef56891ec58243a9f0cd863166b0d2a4"
+  },
+  {
+    "file": "fzstd-LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/fzstd@0.1.1/LICENSE",
+    "sha256": "62249119bb7df6e54300f37a37145c26a6d4420410aac8881a119c5b427cf751"
+  },
+  {
+    "file": "sql-wasm.js",
+    "url": "https://cdn.jsdelivr.net/npm/sql.js@1.13.0/dist/sql-wasm.js",
+    "sha256": "694ca5b36aa3e6e71f417819d7df390b65343665fcfa5c69015ca33d93d291b3"
+  },
+  {
+    "file": "sql-wasm.wasm",
+    "url": "https://cdn.jsdelivr.net/npm/sql.js@1.13.0/dist/sql-wasm.wasm",
+    "sha256": "0734155c83e493983d1f2ff5b09a4fab6e35a32e9449c7e4e545756439f62d73"
+  },
+  {
+    "file": "sql-js-LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/sql.js@1.13.0/LICENSE",
+    "sha256": "60a3f6e4d7b29b4321359e683b36cf198d24f58e24582070f56e6fa89d5ee2be"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "reviewedOn": "2026-10-08",
+  "candidates": 264,
+  "included": 255,
+  "includedByOrigin": {
+    "cassani": 88,
+    "aroui": 111,
+    "choy": 56
+  },
+  "excluded": [
+    {
+      "id": "cassani-d4-4.5-003",
+      "reason": "Batch expiry does not guarantee successful completion; several cadence choices satisfy the simplified arithmetic."
+    },
+    {
+      "id": "cassani-d4-4.6-003",
+      "reason": "Uncalibrated confidence is presented as an endorsed review mechanism without enough qualification."
+    },
+    {
+      "id": "aroui-exam1-q16",
+      "reason": "Incorrectly places allowedTools on AgentDefinition instead of query options."
+    },
+    {
+      "id": "aroui-exam2-q13",
+      "reason": "The implementation already checks stop_reason; a safety cap is not intrinsically incorrect."
+    },
+    {
+      "id": "aroui-exam2-q37",
+      "reason": "Infers a cumulative refund policy not specified by the scenario."
+    },
+    {
+      "id": "choy-q16",
+      "reason": "Tool descriptions alone do not enforce valid transactional identifiers."
+    },
+    {
+      "id": "choy-q20",
+      "reason": "Conflicts with the guide’s advice to communicate interacting issues together."
+    },
+    {
+      "id": "choy-q37",
+      "reason": "A path-scoped file permission does not guarantee protection through every tool such as Bash."
+    },
+    {
+      "id": "choy-q49",
+      "reason": "Plan mode versus direct execution is underspecified for this refactor."
+    }
+  ],
+  "origins": {
+    "cassani": {
+      "title": "CCAR-F Study Kit",
+      "author": "Alexio Cassani and contributors",
+      "url": "https://github.com/alexiocassanifm/anthropic-certifications",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "revision": "b13f58a719962a19acb2ba9c1bfac4c897e2f85a",
+      "changes": "Adapted for this app: objective mapping, current terminology, answer-reference cleanup, official references, and selected answer corrections."
+    },
+    "aroui": {
+      "title": "Claude Certified Architect Prep",
+      "author": "Haytam Aroui",
+      "url": "https://github.com/haytamAroui/Claude-Certified-Architect",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/haytamAroui/Claude-Certified-Architect/blob/3bbc7f2529a1cbcd39324571fa73446b2ef26980/LICENSE",
+      "revision": "3bbc7f2529a1cbcd39324571fa73446b2ef26980",
+      "changes": "Adapted for this app: objective mapping, current terminology, answer-reference cleanup, official references, and selected answer corrections."
+    },
+    "choy": {
+      "title": "Claude Architect Foundations Study Guide",
+      "author": "choychoy1",
+      "url": "https://github.com/choychoy1/claude-architect-foundations-study-guide",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "revision": "555a6e3d088e0a2626f2d9bf1c58f5ce3938c850",
+      "changes": "Adapted for this app: objective mapping, current terminology, answer-reference cleanup, official references, and selected answer corrections."
+    }
+  },
+  "policy": "Community practice text adapted with attribution. Decisions referenced to Anthropic docs and exam objectives. This review is not psychometric calibration."
+}
